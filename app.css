@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
 
 h1{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 70px; 
     text-transform: uppercase;
     border-top: 5px solid;
@@ -21,6 +21,7 @@ img {
     width: 500px;
     border-radius: 50%;
 }
+
 
 #container {
     display: flex;
