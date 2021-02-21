@@ -27,6 +27,9 @@
 */
 /*--------------- ---- Responsive --------------------------*/
 /*-------------   Color Variable  --------------*/
+html{
+  scroll-behavior: smooth
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* line 38, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .section-bg1 {
@@ -736,6 +739,7 @@ hr {
 /* scrollUp */
 /* line 442, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 #scrollUp, #back-top {
+  display: none;
   background: #670000;
   height: 50px;
   width: 50px;
@@ -3162,6 +3166,10 @@ hr {
 /* line 98, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_color.scss */
 .theme-color {
   color: #670000;
+}
+
+main{
+  background-color: #FFEFAE;
 }
 
 /* line 5, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
@@ -7843,5 +7851,6 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
